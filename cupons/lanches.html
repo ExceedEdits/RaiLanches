@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rai Lanches | Lanches</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
+  </head>
+  <body class="bg-dark">
+    <!-- MENU DE NAVEGAÇÃO -->
+    <nav class="navbar bg-light bg-gradient navbar-expand-sm fixed-top">
+      <div class="container">
+        <a href="/index.html" class="navbar-brand d-flex align-items-center"><img src="/assets/RaiLanches.png" alt="logo" class="img-fluid rounded" style="max-width: 200px;"></a>
+          <button class="navbar-toggler btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar"><i class="bi bi-list"></i></button>
+          <div class="collapse navbar-collapse" id="menuNavbar">
+            <div class="navbar-nav ms-auto">
+              <a href="/index.html" class="btn btn-light fs-5 nav-link mx-2"><i class="bi bi-house-fill me-2"></i>Home</a>
+              <div class="dropdown mx-2">
+                <div class="btn-group">
+                  <a href="/cupons.html" class="btn btn-light fs-5 nav-link active" style="--bs-btn-active-bg: rgba(var(--bs-danger-rgb));"><i class="bi bi-tag-fill me-2"></i>Cupons</a>
+                  <button class="btn btn-light dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-end" style="--bs-dropdown-link-active-bg: rgba(var(--bs-danger-rgb));">
+                    <li><a href="/cupons/lanches.html" class="dropdown-item text-dark active">Lanches</a></li>
+                    <li><a href="/cupons/combos.html" class="dropdown-item text-dark">Combos</a></li>
+                    <li><a href="/cupons/acompanhamentos.html" class="dropdown-item text-dark">Acompanhamentos</a></li>
+                    <li><a href="/cupons/bebidas.html" class="dropdown-item text-dark">Bebidas</a></li>
+                    <li><a href="/cupons/sobremesas.html" class="dropdown-item text-dark">Sobremesas</a></li>
+                  </ul>
+                </div>
+              </div>
+              <a href="/entregas.html" class="btn btn-light fs-5 nav-link mx-2"><i class="bi bi-basket2-fill me-2"></i>Entregas</a>
+              <a href="/aboutUs.html" class="btn btn-light fs-5 nav-link mx-2"><i class="bi bi-info-circle-fill me-2"></i>Sobre Nós</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <div class="p-5 invisible"></div>
+    <!-- TÍTULO -->
+    <div class="container text-light">
+      <h1 class="display-1 fw-bolder text-danger">LANCHES</h1>
+      <p class="lead">Escolha o lanche que mais se adapta ao seu paladar e sua fome e aproveite nossos descontos!</p>
+      <hr class="mt-5">
+      <!-- LISTA DE CUPONS DE LANCHES DE CARNE -->
+      <p class="display-6 text-danger my-4">Hambúrgeres de Carne</p>
+      <div class="container stack gap-3 d-flex">
+        <div class="col-3 card bg-dark text-light border border-danger">
+          <img src="/assets/HamburgerMeatCard1.jpg" alt="X-Thunder" class="card-img-top border border-dark">
+          <div class="card-body">
+            <h5 class="display-5 card-title">X-Thunder</h5>
+            <p class="card-text">Lorem ipsum</p>
+            <button class="btn btn-danger p-3 fw-bolder" data-bs-toggle="modal" data-bs-target="#xThunder">PEGAR CUPOM</button>
+          </div>
+        </div>
+        <div class="col-3 card bg-dark text-light border border-danger">
+          <img src="/assets/HamburgerMeatCard2.jpg" alt="X-Storm" class="card-img-top border border-dark">
+          <div class="card-body">
+            <h5 class="display-5 card-title">X-Storm</h5>
+            <p class="card-text">Lorem ipsum</p>
+            <button class="btn btn-danger p-3 fw-bolder mb-auto" data-bs-toggle="modal" data-bs-target="#xStorm">PEGAR CUPOM</button>
+          </div>
+        </div>
+        <div class="col-3 card bg-dark text-light border border-danger">
+          <img src="/assets/HamburgerMeatCard3.jpg" alt="X-Dark" class="card-img-top border border-dark">
+          <div class="card-body">
+            <h5 class="display-5 card-title">X-Dark</h5>
+            <p class="card-text">Lorem ipsum</p>
+            <button class="btn btn-danger p-3 fw-bolder" data-bs-toggle="modal" data-bs-target="#xDark">PEGAR CUPOM</button>
+          </div>
+        </div>
+        <div class="col-3 card bg-dark text-light border border-danger">
+          <img src="/assets/HamburgerMeatCard4.jpg" alt="X-Fire" class="card-img-top border border-dark">
+          <div class="card-body">
+            <h5 class="display-5 card-title">X-Fire</h5>
+            <p class="card-text">Lorem ipsum</p>
+            <button class="btn btn-danger p-3 fw-bolder" data-bs-toggle="modal" data-bs-target="#xFire">PEGAR CUPOM</button>
+          </div>
+        </div>
+      </div>
+      <hr class="mt-5">
+      <!-- LISTA DE CUPONS DE LANCHES DE FRANGO -->
+      <p class="display-6 text-danger my-4">Hambúrgeres de Frango</p>
+      <div class="container stack gap-3 d-flex">
+        <div class="card col-3 bg-dark text-light border border-danger">
+          <img src="/assets/HamburgerChickenCard1.jpg" alt="Chicken Chinese" class="card-img-top border border-dark">
+          <div class="card-body">
+            <h6 class="display-6 card-title">Chicken Chinese</h6>
+            <p class="card-text">Lorem Ipsum</p>
+            <button class="btn btn-danger p-3 fw-bolder" data-bs-toggle="modal" data-bs-target="#chickenChinese">PEGAR CUPOM</button>
+          </div>
+        </div>
+        <div class="card col-3 bg-dark text-light border border-danger">
+          <img src="/assets/HamburgerChickenCard2.jpg" alt="Chicken Jungle" class="card-img-top border border-dark">
+          <div class="card-body">
+            <h6 class="display-6 card-title">Chicken Jungle</h6>
+            <p class="card-text">Lorem Ipsum</p>
+            <button class="btn btn-danger p-3 fw-bolder" data-bs-toggle="modal" data-bs-target="#chickenJungle">PEGAR CUPOM</button>
+          </div>
+        </div>
+        <div class="card col-3 bg-dark text-light border border-danger">
+          <img src="/assets/HamburgerChickenCard3.jpg" alt="Chicken Twin" class="card-img-top border border-dark">
+          <div class="card-body">
+            <h6 class="display-6 card-title">Chicken Twice</h6>
+            <p class="card-text">Lorem Ipsum</p>
+            <button class="btn btn-danger p-3 fw-bolder" data-bs-toggle="modal" data-bs-target="#chickenTwice">PEGAR CUPOM</button>
+          </div>
+        </div>
+        <div class="card col-3 bg-dark text-light border border-danger">
+          <img src="/assets/HamburgerChickenCard4.jpg" alt="Chicken Tower" class="card-img-top border border-dark">
+          <div class="card-body">
+            <h6 class="display-6 card-title">Chicken Tower</h6>
+            <p class="card-text">Lorem Ipsum</p>
+            <button class="btn btn-danger p-3 fw-bolder" data-bs-toggle="modal" data-bs-target="#chickenTower">PEGAR CUPOM</button>
+          </div>
+        </div>
+      </div>
+      <hr class="mt-5">
+      <!-- MODAIS COM OS CUPONS DOS LANCHES DE CARNE -->
+      <div class="modal fade" id="xThunder" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-dark">
+            <div class="modal-header bg-dark">
+              <h1 class="modal-title fs-5 text-light">X-Thunder | Cupom</h1>
+              <button type="button" class="btn btn-danger bi bi-x-lg text-white ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body bg-dark text-center">
+              <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://www.youtube.com/watch?v=EaswWiwMVs8" alt="qrcode" class="img-fluid">
+            </div>
+            <div class="modal-footer bg-dark">
+              <button type="button" class="btn btn-danger fw-bold" data-bs-dismiss="modal">FECHAR</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="xStorm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-dark">
+            <div class="modal-header bg-dark">
+              <h1 class="modal-title fs-5 text-light">X-Storm | Cupom</h1>
+              <button type="button" class="btn btn-danger bi bi-x-lg text-white ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body bg-dark text-center">
+              <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://www.youtube.com/watch?v=Jrg9KxGNeJY" alt="qrcode" class="img-fluid">
+            </div>
+            <div class="modal-footer bg-dark">
+              <button type="button" class="btn btn-danger fw-bold" data-bs-dismiss="modal">FECHAR</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="xDark" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-dark">
+            <div class="modal-header bg-dark">
+              <h1 class="modal-title fs-5 text-light">X-Dark | Cupom</h1>
+              <button type="button" class="btn btn-danger bi bi-x-lg text-white ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body bg-dark text-center">
+              <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://www.youtube.com/watch?v=rju0pbdm4z4" alt="qrcode" class="img-fluid">
+            </div>
+            <div class="modal-footer bg-dark">
+              <button type="button" class="btn btn-danger fw-bold" data-bs-dismiss="modal">FECHAR</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="xFire" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-dark">
+            <div class="modal-header bg-dark">
+              <h1 class="modal-title fs-5 text-light">X-Fire | Cupom</h1>
+              <button type="button" class="btn btn-danger bi bi-x-lg text-white ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body bg-dark text-center">
+              <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://www.youtube.com/watch?v=ALj5MKjy2BU" alt="qrcode" class="img-fluid">
+            </div>
+            <div class="modal-footer bg-dark">
+              <button type="button" class="btn btn-danger fw-bold" data-bs-dismiss="modal">FECHAR</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MODAIS COM OS CUPONS DOS LANCHES DE FRANGO -->
+      <div class="modal fade" id="chickenChinese" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-dark">
+            <div class="modal-header bg-dark">
+              <h1 class="modal-title fs-5 text-light">Chicken Chinese | Cupom</h1>
+              <button type="button" class="btn btn-danger bi bi-x-lg text-white ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body bg-dark text-center">
+              <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://www.youtube.com/watch?v=j4qVhOaRBSY" alt="qrcode" class="img-fluid">
+            </div>
+            <div class="modal-footer bg-dark">
+              <button type="button" class="btn btn-danger fw-bold" data-bs-dismiss="modal">FECHAR</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="chickenJungle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-dark">
+            <div class="modal-header bg-dark">
+              <h1 class="modal-title fs-5 text-light">Chicken Jungle | Cupom</h1>
+              <button type="button" class="btn btn-danger bi bi-x-lg text-white ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body bg-dark text-center">
+              <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://www.youtube.com/watch?v=9eqJAKDL2zQ" alt="qrcode" class="img-fluid">
+            </div>
+            <div class="modal-footer bg-dark">
+              <button type="button" class="btn btn-danger fw-bold" data-bs-dismiss="modal">FECHAR</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="chickenTwice" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-dark">
+            <div class="modal-header bg-dark">
+              <h1 class="modal-title fs-5 text-light">Chicken Twice | Cupom</h1>
+              <button type="button" class="btn btn-danger bi bi-x-lg text-white ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body bg-dark text-center">
+              <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://www.youtube.com/watch?v=V2hlQkVJZhE" alt="qrcode" class="img-fluid">
+            </div>
+            <div class="modal-footer bg-dark">
+              <button type="button" class="btn btn-danger fw-bold" data-bs-dismiss="modal">FECHAR</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="chickenTower" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-dark">
+            <div class="modal-header bg-dark">
+              <h1 class="modal-title fs-5 text-light">Chicken Tower | Cupom</h1>
+              <button type="button" class="btn btn-danger bi bi-x-lg text-white ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body bg-dark text-center">
+              <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://www.youtube.com/watch?v=1Y9weoZwC54" alt="qrcode" class="img-fluid">
+            </div>
+            <div class="modal-footer bg-dark">
+              <button type="button" class="btn btn-danger fw-bold" data-bs-dismiss="modal">FECHAR</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- RODAPÉ -->
+    <div class="py-5 invisible"></div>
+    <footer class="bg-dark bg-gradient text-light text-center fixed-bottom">
+      <p class="mt-2">© Exceed Edits. Todo o conteúdo aqui é fictício. Nenhum dos nomes aqui inseridos tem a intenção de ferir ou lucrar com algo.</p>
+    </footer>
+  </body>
+</html>
